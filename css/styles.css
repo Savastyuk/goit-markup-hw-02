@@ -1,203 +1,189 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    color: var(--navyblue, #2E2F42);
+:root {
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --white: #FFF;
+    --slate: #434455;
+    --cloud: #F4F4FD;
 }
-.link{
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.link {
     text-decoration: none;
 }
-.list{
+
+.list {
     list-style-type: none;
 }
 
+.list li:first-child a:hover {
+    color: #404bbf;
+}
+
+.list li:first-child a:focus {
+    color: #404bbf;
+}
+
 .visually-hidden {
-    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
-/*!------HEADER-------*/
-
-.header-logo{
-color: var(--iris, #4D5AE5);
+.header-logo {
+    color: var(--iris);
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
-    line-height: 1.16666667; /
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
-.header-menu-link{
-    color: var(--navyblue, #2E2F42);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.50;
-        letter-spacing: -0.02em;
+.header-menu-link {
+    color: var(--navyblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover{
-    color: #4D5AE5;
-}
-
+.header-menu-link:hover,
 .header-menu-link:focus {
-    color: #4D5AE5;
+    color: var(--iris);
 }
 
-/*!--------HEADER-------*/
-
-/*?--------HERO---------*/
+.header-address{
+    font-style: normal;
+}
 
 .hero {
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue);
 }
 
 .hero-title {
-    color: var(--white, #FFF);
-        text-align: center;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07142857;
-        letter-spacing: -0.02em;
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07142857;
+    letter-spacing: -0.02em;
 }
 
 .hero-button {
-    color: var(--white, #FFF);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.50;
-        letter-spacing: -0.04em;
-        background: var(--iris, #4D5AE5);
-        cursor: pointer;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: -0.04em;
+    background: var(--iris);
+    cursor: pointer;
 }
 
-/*?----------HERO----------*/
-
-/*todo-------ADVANTAGES---------*/
-
 .advantages {
-    background-color: #FFF;
+    background-color: var(--white);
 }
 
 .advantages-subtitle {
-    color: var(--navyblue, #2E2F42);
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.20;
-        letter-spacing: -0.02em;
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: -0.02em;
 }
 
 .advantages-item-text {
-    color: var(--slate, #434455);
-        font-size: 16px;
-        line-height: 1.50;
-        letter-spacing: -0.02em;
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: -0.02em;
 }
 
-/*todo-------ADVANTAGES---------*/
-
-/**----------ACTION----------*/
-
-.action-title{
-    color: var(--navyblue, #2E2F42);
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.1111;
-        letter-spacing: -0.02em;
-        text-transform: capitalize;
+.action-title {
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1111;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
 }
-
-/**----------ACTION----------*/
-
-/*!----------TEAM-----------*/
-
-.team {}
 
 .team-title {
-    color: var(--navyblue, #2E2F42);
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.111;
-        letter-spacing: -0.02em;
-        text-transform: capitalize;
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
 }
 
-.team-subtitle{
-    color: var(--navyblue, #2E2F42);
-        text-align: center;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.20;
-        letter-spacing: -0.02em;
+.team-subtitle {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: -0.02em;
 }
 
 .team-item-text {
-    color: var(--slate, #434455);
-        text-align: center;
-        font-size: 16px;
-        line-height: 1.50;
-        letter-spacing: -0.02em;
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: -0.02em;
 }
 
-/*!----------TEAM-----------*/
-
-/*?----------FOOTER---------*/
-
 .footer {
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue);
 }
 
 .footer-item-text {
-    color: var(--cloud, #F4F4FD);
-        font-size: 16px;
-        line-height: 1.50;
-        letter-spacing: -0.02em;
+    color: var(--cloud);
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: -0.02em;
 }
 
-/*?----------FOOTER---------*/
-
 .locator-button {
-    background-color: white;
-        color: var(--iris, #4D5AE5);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.50;
-        letter-spacing: -0.04em;
+    background-color: var(--white);
+    color: var(--iris);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: -0.04em;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .locator-button:hover {
     background-color: #404BBF;
-    color: var(--white, #FFF);
+    color: var(--white);
     font-size: 20px;
-    font-family:  'Roboto';
-        font-weight: 500;
-        line-height: 1.20;
-        letter-spacing: -0.02em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: -0.02em;
 }
 
 .portfolio-subtitle {
-    color: var(--navyblue, #2E2F42);
-        font-size: 20px;
-        font-family:  'Roboto';
-        font-weight: 500;
-        line-height: 1.20;
-        letter-spacing: -0.02em;
+    color: var(--navyblue);
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: -0.02em;
 }
 
 .portfolio-item-text {
-    color: var(--slate, #434455);
-        font-size: 16px;
-        line-height: 1.50;
-        letter-spacing: -0.02em;
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: -0.02em;
 }
