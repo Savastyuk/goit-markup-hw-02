@@ -200,7 +200,7 @@ body {
     background-color: #404BBF;
 }
 
-.locator-button:hover {
+.locator-button:hover, .locator-button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
     font-size: 20px;
