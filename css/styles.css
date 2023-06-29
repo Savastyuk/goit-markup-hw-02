@@ -87,6 +87,10 @@ body {
     letter-spacing: 0.02em;
 }
 
+.hero-button:hover,.hero-button:focus{
+    background-color: #404BBF;
+}
+
 .hero-button {
     color: var(--white);
     font-size: 16px;
@@ -135,7 +139,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-subtitle {
@@ -152,6 +156,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.team-list{
+    background-color: #FFFFFF;
 }
 
 .footer {
