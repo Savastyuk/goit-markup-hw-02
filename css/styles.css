@@ -195,7 +195,7 @@ body {
     color: #FFFFFF;
     font-size: 20px;
     line-height: 1.20;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-subtitle {
@@ -204,12 +204,12 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-item-text {
     color: var(--slate);
     font-size: 16px;
     line-height: 1.50;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
