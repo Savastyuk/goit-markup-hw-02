@@ -190,9 +190,14 @@ body {
     cursor: pointer;
 }
 
-.button:hover, .button:focus{
+.button:hover {
     color: #FFFFFF;
-    background-color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .locator-button:hover {
