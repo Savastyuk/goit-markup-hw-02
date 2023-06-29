@@ -131,6 +131,10 @@ body {
     text-transform: capitalize;
 }
 
+.team{
+    background-color: #F4F4FD;
+}
+
 .team-title {
     color: var(--navyblue);
     font-size: 36px;
