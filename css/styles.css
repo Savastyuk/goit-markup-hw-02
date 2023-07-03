@@ -188,7 +188,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.locator-button {
+.locator-button-all {
     background-color: var(--cloud);
     color: var(--iris);
     text-align: center;
