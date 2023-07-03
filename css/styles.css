@@ -203,13 +203,13 @@ body {
     color: #FFFFFF;
 }
 
-.locator-button:hover,
-.locator-button:focus {
-    background-color: #404BBF;
+.locator-button:hover{
     color: #FFFFFF;
-    font-size: 20px;
-    line-height: 1.20;
-    letter-spacing: 0.02em;
+    background-color: #404BBF;
+}
+.locator-button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .portfolio-subtitle {
