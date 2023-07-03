@@ -208,12 +208,12 @@ body {
 }
 .locator-button-all:hover, .locator-button-all:focus{
     color: var(--cloud);
-        background-color: var(--iris);
+    background-color: var(--iris);
 }
 
 .locator-button:hover{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--cloud);
+    background-color: var(--iris);
 }
 .locator-button:focus{
     color: #FFFFFF;
