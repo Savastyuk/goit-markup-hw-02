@@ -21,11 +21,11 @@ body {
 }
 
 .list li:first-child a:hover {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .list li:first-child a:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .visually-hidden {
@@ -63,19 +63,19 @@ body {
     color: var(--iris);
 }
 
-.header-address{
+.header-address {
     font-style: normal;
 }
 
-.header-address-link{
-    color: #434455;
+.header-address-link {
+    color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .hero {
-    background-color: #2e2f42;
+    background-color: var(--navyblue);
 }
 
 .hero-title {
@@ -87,8 +87,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.hero-button:hover,.hero-button:focus{
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 .hero-button {
@@ -98,7 +100,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.50;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    background-color: var(--iris);
     cursor: pointer;
 }
 
@@ -131,8 +133,8 @@ body {
     text-transform: capitalize;
 }
 
-.team{
-    background-color: #F4F4FD;
+.team {
+    background-color: var(--cloud);
 }
 
 .team-title {
@@ -143,11 +145,11 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
 }
 
 .team-subtitle {
-    color: #2e2f42;
+    color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     text-align: center;
@@ -155,8 +157,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.team-item{
-    background-color: #FFFFFF;
+.team-item {
+    background-color: var(--white);
 }
 
 .team-item-text {
@@ -164,11 +166,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
-.team-list{
-    background-color: #FFFFFF;
+.team-list {
+    background-color: var(--white);
 }
 
 .footer {
@@ -183,8 +185,8 @@ body {
 }
 
 .locator-button {
-    background-color: #F4F4FD;
-    color: #4d5ae5;
+    background-color: var(--cloud);
+    color: var(--iris);
     text-align: center;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
@@ -195,12 +197,14 @@ body {
     cursor: pointer;
 }
 
-.button-list:hover, .button-list:focus{
+.button-list:hover,
+.button-list:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
 
-.locator-button:hover, .locator-button:focus {
+.locator-button:hover,
+.locator-button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
     font-size: 20px;
