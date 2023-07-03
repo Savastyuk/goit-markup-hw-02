@@ -201,23 +201,9 @@ body {
     cursor: pointer;
 }
 
-.button-list:hover,
-.button-list:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
-}
 .locator-button-all:hover, .locator-button-all:focus{
     color: var(--cloud);
     background-color: var(--iris);
-}
-
-.locator-button:hover{
-    color: var(--cloud);
-    background-color: var(--iris);
-}
-.locator-button:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
 }
 
 .portfolio-subtitle {
