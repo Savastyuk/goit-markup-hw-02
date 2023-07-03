@@ -211,6 +211,10 @@ body {
     color: #FFFFFF;
     background-color: #404BBF;
 }
+.button:hover, .button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 
 .portfolio-subtitle {
     color: var(--navyblue);
