@@ -197,7 +197,6 @@ body {
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.04em;
-    transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
 }
 
